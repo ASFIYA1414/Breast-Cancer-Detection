@@ -16,20 +16,30 @@ By applying Transfer Learning with MobileNet, the model achieves high accuracy w
  🧩 How It Works (Technology Stack)
 1. Tools & Frameworks
 Programming Language: Python
+
 Deep Learning Framework: TensorFlow, Keras
+
 Libraries Used: OpenCV, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn
+
 Model Architecture: MobileNetV2 (Transfer Learning)
+
 Development Environment: Jupyter Notebook / Google Colab
+
 Version Control: Git & GitHub
+
 🩻 2. Workflow
+
 Data Collection: Dataset of mammogram images (Benign & Malignant) sourced from open repositories.
+
 Preprocessing:
-Resizing images to 150×150 pixels
-Normalizing pixel values (0–1 range)
-Augmenting images for improved generalization
-Model Training:
-MobileNetV2 used with custom classification layers
+Resizing images to 150×150 pixels, Normalizing pixel values (0–1 range), Augmenting images for improved generalization
+
+Model Training: MobileNetV2 used with custom classification layers
+
 Optimizer: Adam | Loss: Binary Cross-Entropy
+
 Metrics: Accuracy, Precision, Recall, F1-Score
+
 Model Evaluation: Tested on unseen data and visualized using confusion matrix & ROC curve.
+
 Deployment: Model saved and optimized for TensorFlow Lite for potential mobile integration.
